@@ -1,0 +1,45 @@
+.flexcontainer{
+    display: flex;
+    background: black;
+    /*border: 5px solid orange;
+    padding: 10px;
+    gap: 10px;*/
+    flex: 1;
+}
+/*The entire html doc is inside a flex container: is this correct...?*/
+
+.headings {
+    background-color: red;
+    color: white;
+    height: 30px;
+    padding: 4px;
+    flex: 1;
+}
+
+.image{
+    flex: 1;
+    justify-content: center;
+
+}
+
+.workexp{
+    background: magenta;
+    color: white;
+    padding: 4px;
+    flex: 1;
+}
+
+.education{
+    background: skyblue;
+    color: black;
+    margin: solid yellow;
+    padding: 10px;
+    flex: 1;
+}
+
+.videogames{
+    background: green;
+    color: gold;
+    padding: 5px;
+    flex: 1;
+}
