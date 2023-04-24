@@ -1,17 +1,58 @@
-.flexcontainer{
-    display: flex;
-    background: black;
-    /*border: 5px solid orange;
-    padding: 10px;
-    gap: 10px;*/
-    flex: 1;
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2px;
+    margin: 5px;
+   /* display: flex;
+    justify-content: center; /*horizontal
+    align-content: center; /*vertical*/
+    background: white;
 }
-/*The entire html doc is inside a flex container: is this correct...?*/
 
-.headings {
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.navlinks{
+    list-style-type: none;
+    font-size: 18px;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pagecontainer{
+    display: flex;
+    flex-direction: column;
+    margin: 8px solid orange;
+    padding: 8px;
+    width: 100%;
+}/*the entire html sheet is within a flex container*/
+
+
+.header{
+    background: #0080FF;
+    padding: 20px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.rightside{
+    display: flex;
+    justify-content: center;
+}
+.signin{
+    margin-left: 30px;
+}
+
+.aboutme {
     background-color: red;
     color: white;
-    height: 30px;
+    /*height: 30px;*/
     padding: 4px;
     flex: 1;
 }
@@ -23,6 +64,7 @@
 }
 
 .workexp{
+    display: flex;
     background: magenta;
     color: white;
     padding: 4px;
@@ -30,6 +72,7 @@
 }
 
 .education{
+    display: flex;
     background: skyblue;
     color: black;
     margin: solid yellow;
@@ -38,8 +81,29 @@
 }
 
 .videogames{
+    display: flex;
     background: green;
     color: gold;
     padding: 5px;
     flex: 1;
+}
+
+.randomparagraph{
+    display: flex;
+    background: orange;
+    flex: 1;
+}
+
+.aboutsection{
+    display: flex;
+    background: pink;
+    flex: 1;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    border: 8px solid red;
+    background: sandybrown;
+
 }
